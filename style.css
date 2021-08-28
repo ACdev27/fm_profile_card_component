@@ -40,7 +40,7 @@ body {
   background-color: var(--page-bg);
   background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
-  background-position: right 50vw top -44vh, left 48vw bottom -50vh;
+  background-position: right 51vw top -54vh, left 48vw bottom -63vh;
 }
 main {
   height: 100vh;
@@ -61,6 +61,7 @@ main {
   text-align: center;
 }
 .person-image img {
+  box-sizing: content-box;
   width: 96px;
   height: 96px;
   border-radius: 50%;
@@ -77,7 +78,7 @@ main {
   border-radius: 15px 15px 0 0;
 }
 .card-person-info {
-  margin-top: 72px;
+  margin-top: 70px;
   text-align: center;
 }
 .card-person-info h1, .stat-number {
@@ -102,21 +103,30 @@ main {
 }
 
 .card-social-stats {
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
   border-top: 1px solid #E8E9EC;
 }
 .social-stats {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
+  width: 86%;
   height: 88px;
-  margin-top: 24px;
+  margin-top: 19px;
+}
+.social-stats div {
+  text-align: center;
+}
+.stat-number {
+  margin-bottom: 7px;
 }
 .stat-label {
   font-family: var(--font-family-primary);
   font-size: 1em;
   color: var(--text-gray);
+  letter-spacing: 1.5px;
 }
 
 
