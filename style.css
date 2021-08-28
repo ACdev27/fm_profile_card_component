@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+.temp2 {
+  background-image: url("photographer.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+.temp {
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-color: #cccccc;
+}
+
+
+:root {
+  --page-bg: #19A1AE;
+  --card-bg: #ffffff;
+  --text-dark: #2E3349;
+  --text-gray: #6B7082;
+  --light-gray: #979797;
+  --font-family-primary: 'Kumbh Sans', sans-serif;
+  --heading-font-size: 1.8em;
+  --font-bold: 700;
+}
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: var(--page-bg);
+  background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw top -44vh, left 48vw bottom -50vh;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 350px;
+  height: 374px;
+  background-color: var(--card-bg);
+  position: relative;
+  border-radius: 15px;
+}
+.person-image {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.person-image img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 5px solid var(--card-bg);
+  display: inline-block;
+  margin-top: 91px;
+}
+.card-top {
+  width: 350px;
+  height: 140px;
+  background-color: #41cbd3;
+  background-image: url(images/bg-pattern-card.svg);
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card-person-info {
+  margin-top: 72px;
+  text-align: center;
+}
+.card-person-info h1, .stat-number {
+  font-size: var(--heading-font-size);
+  font-family: var(--font-family-primary);
+  color: var(--text-dark);
+  font-weight: var(--font-bold);
+}
+.card-person-info h1 {
+  margin-bottom: 8px;
+}
+.card-person-info h1 span {
+  color: var(--text-gray);
+  font-weight: normal;
+}
+.card-person-info h2 {
+  font-size: var(--heading-font-size);
+  font-family: var(--font-family-primary);
+  color: var(--text-gray);
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+.card-social-stats {
+  margin-top: 20px;
+  border-top: 1px solid #E8E9EC;
+}
+.social-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  height: 88px;
+  margin-top: 24px;
+}
+.stat-label {
+  font-family: var(--font-family-primary);
+  font-size: 1em;
+  color: var(--text-gray);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
