@@ -43,4 +43,4 @@ Using multiple background images on same element, and using background-position 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ACdev27/solutions)
+- Frontend Mentor - [@ACdev27](https://www.frontendmentor.io/profile/ACdev27/solutions)
