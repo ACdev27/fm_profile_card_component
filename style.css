@@ -68,20 +68,20 @@ main {
   margin-top: 70px;
   text-align: center;
 }
-.card-person-info h1, .stat-number {
+.card-person-info h2, .stat-number {
   font-size: var(--heading-font-size);
   font-family: var(--font-family-primary);
   color: var(--text-dark);
   font-weight: var(--font-bold);
 }
-.card-person-info h1 {
+.card-person-info h2 {
   margin-bottom: 8px;
 }
-.card-person-info h1 span {
+.card-person-info h2 span {
   color: var(--text-gray);
   font-weight: normal;
 }
-.card-person-info h2 {
+.card-person-info h3 {
   font-size: var(--heading-font-size);
   font-family: var(--font-family-primary);
   color: var(--text-gray);
